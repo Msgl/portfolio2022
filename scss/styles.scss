@@ -1,0 +1,206 @@
+@import 'colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color-bg;
+  color: $color-text-dark;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-accent {
+  color: $color-accent-normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Navbar Section
+.navbar {
+  & .row {
+    width: 100%;
+  }
+}
+
+.navbar-custom {
+  background-color: $color-bg;
+
+  /* change the brand and text color */
+  & .navbar-brand,
+  & .navbar-text {
+    color: $color-text-dark;
+  }
+
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+  }
+
+  /* change the link color */
+  & .navbar-nav .nav-link {
+    color: $color-text-dark;
+    transition: background-color 2s;
+  }
+  /* change the color of active or hovered links */
+  & .nav-item.active .nav-link,
+  & .nav-item:hover .nav-link {
+    background-color: $color-accent-yellow;
+  }
+  /* change button color*/
+  & .navbar-toggler {
+    //border: 1px solid $color-text-dark;
+
+    /* change toggler icon color */
+    & .fa-bars {
+      color: $color-text-dark;
+    }
+  }
+}
+
+// Banner Section
+.banner {
+  font-family: 'ABeeZee', sans-serif;
+  background: $color-accent-yellow;
+  height: fit-content;
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.skills,
+.projects,
+.contact {
+  padding-top: 100px;
+}
+
+.section-title {
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+//Skills Section
+.skills {
+  padding-bottom: 100px;
+  .skill-icons {
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+}
+
+// Project Section
+.projects {
+  & .card-deck {
+    margin-bottom: 30px;
+  }
+  & .card {
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in;
+
+    & .card-title {
+      padding-bottom: 10px;
+      font-size: 1.5rem;
+    }
+
+    & .badge {
+      margin-bottom: 10px;
+    }
+
+    & .card-text {
+      padding-bottom: 10px;
+    }
+
+    & .link-darker {
+      color: black;
+      font-weight: 500;
+    }
+  }
+
+  & .card:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    transform: scale(1.03);
+  }
+
+  & .card-img-top {
+    padding: 20px;
+    border-radius: 30px;
+    height: 340px;
+    object-fit: cover;
+  }
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: $color-accent-normal;
+  border-color: $color-accent-normal;
+
+  &:hover {
+    color: #fff;
+    background-color: $color-accent-darker;
+    border-color: $color-accent-darker;
+  }
+  &.focus,
+  &:focus {
+    color: #fff;
+    background-color: $color-accent-darker;
+    border-color: $color-accent-darker;
+    box-shadow: 0 0 0 0.2rem $color-accent-normal;
+  }
+}
+
+.btn-outline-custom {
+  color: $color-accent-normal;
+  border-color: $color-accent-normal;
+
+  &:hover {
+    color: #fff;
+    background-color: $color-accent-normal;
+    border-color: $color-accent-normal;
+  }
+
+  .btn-outline-dark.focus,
+  .btn-outline-dark:focus {
+    box-shadow: 0 0 0 0.2rem $color-accent-darker;
+  }
+}
+
+//Contact Section
+.contact {
+  & .row > div {
+    height: 100px;
+  }
+
+  & .badge {
+    transition: color 2s;
+  }
+
+  & .badge:hover {
+    color: black;
+  }
+}
+
+// Footer Section
+footer {
+  p {
+    background-color: $color-accent-yellow;
+  }
+
+  .link-darker {
+    color: black;
+    font-weight: 800;
+  }
+}
