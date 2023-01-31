@@ -9,14 +9,14 @@ html {
 }
 
 body {
-  background-color: white;
-  color: #18262b;
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(196deg, 29%, 13%);
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
 
 .text-accent {
-  color: #301aff;
+  color: hsl(246deg 100% 42%)!important;
 }
 
 img {
@@ -28,36 +28,38 @@ img {
 }
 
 .navbar-custom {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   /* change the brand and text color */
   /* change the link color */
   /* change the color of active or hovered links */
   /* change button color*/
 }
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text {
-  color: #18262b;
+  color: hsl(196deg, 29%, 13%);
 }
 .navbar-custom .navbar-brand {
   font-family: "Pacifico", cursive;
   font-size: 2rem;
 }
 .navbar-custom .navbar-nav .nav-link {
-  color: #18262b;
+  color: hsl(196deg, 29%, 13%);
   transition: background-color 2s;
 }
 .navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
-  background-color: #ffe100;
+  background-color: hsl(53deg, 100%, 50%);
 }
 .navbar-custom .navbar-toggler {
   /* change toggler icon color */
 }
 .navbar-custom .navbar-toggler .fa-bars {
-  color: #18262b;
+  color: hsl(196deg, 29%, 13%);
 }
 
 .banner {
   font-family: "ABeeZee", sans-serif;
-  background: #ffe100;
+  background: hsl(53deg, 100%, 50%);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   margin-top: 70px;
   padding-top: 100px;
@@ -92,15 +94,12 @@ img {
 .projects .card {
   height: 100%;
   border-radius: 10px;
+  border-color: #dee2e6;
   margin-bottom: 30px;
   transition: all 0.5s ease-in;
 }
 .projects .card .card-title {
-  padding-bottom: 10px;
   font-size: 1.5rem;
-}
-.projects .card .badge {
-  margin-bottom: 10px;
 }
 .projects .card .card-text {
   padding-bottom: 10px;
@@ -110,45 +109,49 @@ img {
   font-weight: 500;
 }
 .projects .card:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-  transform: scale(1.03);
+  box-shadow: 0 10px 6px -11px rgb(0 123 255 / 19%), 0 2px 20px -6px rgb(0 123 255 / 19%);
+  transform: translateY(-5px);
 }
 .projects .card-img-top {
-  padding: 20px;
-  border-radius: 30px;
-  height: 340px;
+  height: 228px;
+  -o-object-fit: cover;
   object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .btn-custom {
   color: #fff;
-  background-color: #301aff;
-  border-color: #301aff;
+  background-color: hsl(246deg, 100%, 55%);
+  border-color: hsl(246deg, 100%, 55%);
 }
 .btn-custom:hover {
   color: #fff;
-  background-color: #1200b3;
-  border-color: #1200b3;
+  background-color: hsl(246deg, 100%, 35%);
+  border-color: hsl(246deg, 100%, 35%);
 }
 .btn-custom.focus, .btn-custom:focus {
   color: #fff;
-  background-color: #1200b3;
-  border-color: #1200b3;
-  box-shadow: 0 0 0 0.2rem #301aff;
+  background-color: hsl(246deg, 100%, 35%);
+  border-color: hsl(246deg, 100%, 35%);
+  box-shadow: 0 0 0 0.2rem hsl(246deg, 100%, 55%);
 }
 
 .btn-outline-custom {
-  color: #301aff;
-  border-color: #301aff;
+  color: hsl(246deg, 100%, 55%);
+  border-color: hsl(246deg, 100%, 55%);
+  border-radius: 10px;
+  font-size: 0.93rem;
 }
-.btn-outline-custom:hover {
+.btn-outline-custom:hover, .btn-outline-custom:focus {
   color: #fff;
-  background-color: #301aff;
-  border-color: #301aff;
+  background-color: hsl(246deg, 100%, 55%);
+  border-color: hsl(246deg, 100%, 55%);
+  box-shadow: none;
 }
 .btn-outline-custom .btn-outline-dark.focus,
 .btn-outline-custom .btn-outline-dark:focus {
-  box-shadow: 0 0 0 0.2rem #1200b3;
+  box-shadow: 0 0 0 0.2rem hsl(246deg, 100%, 35%);
 }
 
 .contact .row > div {
@@ -162,11 +165,9 @@ img {
 }
 
 footer p {
-  background-color: #ffe100;
+  background-color: hsl(53deg, 100%, 50%);
 }
 footer .link-darker {
   color: black;
   font-weight: 800;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
