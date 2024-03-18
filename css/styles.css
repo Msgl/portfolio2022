@@ -12,11 +12,11 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(196deg, 29%, 13%);
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text-accent {
-  color: hsl(246deg 100% 42%)!important;
+  color: hsl(246deg 100% 42%) !important;
 }
 
 img {
@@ -34,18 +34,20 @@ img {
   /* change the color of active or hovered links */
   /* change button color*/
 }
-.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
   color: hsl(196deg, 29%, 13%);
 }
 .navbar-custom .navbar-brand {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 2rem;
 }
 .navbar-custom .navbar-nav .nav-link {
   color: hsl(196deg, 29%, 13%);
   transition: background-color 2s;
 }
-.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
   background-color: hsl(53deg, 100%, 50%);
 }
 .navbar-custom .navbar-toggler {
@@ -56,7 +58,7 @@ img {
 }
 
 .banner {
-  font-family: "ABeeZee", sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   background: hsl(53deg, 100%, 50%);
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -109,7 +111,8 @@ img {
   font-weight: 500;
 }
 .projects .card:hover {
-  box-shadow: 0 10px 6px -11px rgb(0 123 255 / 19%), 0 2px 20px -6px rgb(0 123 255 / 19%);
+  box-shadow: 0 10px 6px -11px rgb(0 123 255 / 19%),
+    0 2px 20px -6px rgb(0 123 255 / 19%);
   transform: translateY(-5px);
 }
 .projects .card-img-top {
@@ -118,8 +121,12 @@ img {
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  box-shadow: 0px 1px 0px 0px #91969d2e;
 }
-
+.projects .card .badge {
+  font-size: 75%;
+  font-weight: 600;
+}
 .btn-custom {
   color: #fff;
   background-color: hsl(246deg, 100%, 55%);
@@ -130,7 +137,8 @@ img {
   background-color: hsl(246deg, 100%, 35%);
   border-color: hsl(246deg, 100%, 35%);
 }
-.btn-custom.focus, .btn-custom:focus {
+.btn-custom.focus,
+.btn-custom:focus {
   color: #fff;
   background-color: hsl(246deg, 100%, 35%);
   border-color: hsl(246deg, 100%, 35%);
@@ -143,7 +151,8 @@ img {
   border-radius: 10px;
   font-size: 0.93rem;
 }
-.btn-outline-custom:hover, .btn-outline-custom:focus {
+.btn-outline-custom:hover,
+.btn-outline-custom:focus {
   color: #fff;
   background-color: hsl(246deg, 100%, 55%);
   border-color: hsl(246deg, 100%, 55%);
@@ -170,4 +179,4 @@ footer p {
 footer .link-darker {
   color: black;
   font-weight: 800;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
