@@ -101,15 +101,17 @@ a {
   text-align: left;
 }
 .projects .card .card-title {
-  padding-bottom: 10px;
   font-size: 1.3rem;
 }
 .projects .card .badge {
-  margin-bottom: 10px;
+  background-color: #301aff;
+  color: #ffffff;
+  font-weight: 400;
 }
 .projects .card .card-text {
   padding-bottom: 10px;
   color: #4f4f4f;
+  font-size: 0.9rem;
 }
 .projects .card .card-text a {
   color: #4f4f4f;
