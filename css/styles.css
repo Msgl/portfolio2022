@@ -30,6 +30,20 @@ a {
 .navbar .row {
   width: 100%;
 }
+.navbar .navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-icons {
+  gap: 15px;
+  padding: 0.5rem 1rem;
+}
+.navbar .navbar-nav .nav-icons a {
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+.navbar .navbar-nav .nav-icons a:hover {
+  color: black;
+}
 
 .navbar-custom {
   background-color: #f4f4f4;

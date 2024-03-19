@@ -32,6 +32,20 @@ a {
   & .row {
     width: 100%;
   }
+  & .navbar-nav {
+    align-items: center;
+    & .nav-icons {
+      gap: 15px;
+      padding: 0.5rem 1rem;
+      & a {
+        font-size: 1.5rem;
+        transition: color 0.3s ease-in-out;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
 }
 
 .navbar-custom {
