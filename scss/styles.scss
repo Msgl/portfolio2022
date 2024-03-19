@@ -99,7 +99,7 @@ a {
 .skills,
 .projects,
 .contact {
-  padding-top: 100px;
+  padding: 3rem 0;
 }
 
 .section-title {
@@ -109,7 +109,6 @@ a {
 
 //Skills Section
 .skills {
-  padding-bottom: 100px;
   .skill-icons {
     font-size: 4rem;
     text-shadow: 1px 1px 1px #ccc;
@@ -199,21 +198,6 @@ a {
   .btn-outline-dark.focus,
   .btn-outline-dark:focus {
     box-shadow: 0 0 0 0.2rem $color-accent-darker;
-  }
-}
-
-//Contact Section
-.contact {
-  & .row > div {
-    height: 100px;
-  }
-
-  & .badge {
-    transition: color 2s;
-  }
-
-  & .badge:hover {
-    color: black;
   }
 }
 

@@ -88,7 +88,7 @@ a {
 .skills,
 .projects,
 .contact {
-  padding-top: 100px;
+  padding: 3rem 0;
 }
 
 .section-title {
@@ -96,9 +96,6 @@ a {
   padding-bottom: 50px;
 }
 
-.skills {
-  padding-bottom: 100px;
-}
 .skills .skill-icons {
   font-size: 4rem;
   text-shadow: 1px 1px 1px #ccc;
@@ -174,16 +171,6 @@ a {
 .btn-outline-custom .btn-outline-dark.focus,
 .btn-outline-custom .btn-outline-dark:focus {
   box-shadow: 0 0 0 0.2rem #1200b3;
-}
-
-.contact .row > div {
-  height: 100px;
-}
-.contact .badge {
-  transition: color 2s;
-}
-.contact .badge:hover {
-  color: black;
 }
 
 footer p {
