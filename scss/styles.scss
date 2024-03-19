@@ -89,19 +89,13 @@ a {
   background: $color-accent-yellow;
   height: fit-content;
   margin-top: 70px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 6rem 0;
   font-size: 1.5rem;
   line-height: 1.6;
   font-weight: 500;
   & .skill-icons i::before {
     font-size: 2.5rem;
   }
-}
-
-.projects,
-.contact {
-  padding: 3rem 0;
 }
 
 .section-title {
@@ -111,6 +105,7 @@ a {
 
 // Project Section
 .projects {
+  padding: 6rem 0;
   & .card-deck {
     margin-bottom: 30px;
   }

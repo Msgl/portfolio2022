@@ -78,8 +78,7 @@ a {
   background: #ffe100;
   height: fit-content;
   margin-top: 70px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 6rem 0;
   font-size: 1.5rem;
   line-height: 1.6;
   font-weight: 500;
@@ -88,16 +87,14 @@ a {
   font-size: 2.5rem;
 }
 
-.projects,
-.contact {
-  padding: 3rem 0;
-}
-
 .section-title {
   font-size: 3rem;
   padding-bottom: 1rem;
 }
 
+.projects {
+  padding: 6rem 0;
+}
 .projects .card-deck {
   margin-bottom: 30px;
 }
