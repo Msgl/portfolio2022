@@ -94,9 +94,11 @@ a {
   font-size: 1.5rem;
   line-height: 1.6;
   font-weight: 500;
+  & .skill-icons i::before {
+    font-size: 2.5rem;
+  }
 }
 
-.skills,
 .projects,
 .contact {
   padding: 3rem 0;
@@ -104,15 +106,7 @@ a {
 
 .section-title {
   font-size: 3rem;
-  padding-bottom: 50px;
-}
-
-//Skills Section
-.skills {
-  .skill-icons {
-    font-size: 4rem;
-    text-shadow: 1px 1px 1px #ccc;
-  }
+  padding-bottom: 1rem;
 }
 
 // Project Section
