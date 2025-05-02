@@ -124,6 +124,8 @@ a {
       background-color: $color-accent-normal;
       color: $color-text-light;
       font-weight: 400;
+      font-size: 0.82rem;
+      padding: 0.25rem 0.6rem;
     }
 
     & .card-text {
@@ -138,6 +140,7 @@ a {
     & .link-darker {
       color: black;
       font-weight: 500;
+      text-decoration: underline;
     }
   }
 
@@ -147,8 +150,9 @@ a {
   }
 
   & .card-img-top {
-    height: 228px;
+    height: 200px;
     object-fit: cover;
+    object-position: top;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0px 1px 0px 0px #91969d2e;
