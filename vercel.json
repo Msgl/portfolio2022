@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/projects/real-estate-app",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/projects/movie-search-app",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/projects/dictionary-app",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
